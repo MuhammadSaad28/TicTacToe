@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TicTacToe</h1>
+        <nav>
+            <p>Home</p>
+            <p>About</p>
+        </nav>
+    </header>
+     <main>
+          <section class="Heading">
+            <h1>Welcome to TicTacToe</h1>
+          </section>
+          <section class="container">
+             <div class="box bt bl"></div>
+             <div class="box bt"></div>
+             <div class="box bt br"></div>
+             <div class="box bl"></div>
+             <div class="box"></div>
+             <div class="box br"></div>
+             <div class="box bb bl"></div>
+             <div class="box bb"></div>
+             <div class="box bb br"></div>
+          </section>
+          <br><br>
+          <section class="result">
+             <h2 class="r"></h2><br>
+             <h2 class="gameNo"></h2><br>
+             <h2 class="p1"></h2>
+          </section>
+          <br>
+          <div class="button">
+            <button class="playagain">Play Again</button>
+            <button class="reset">Reset</button>
+        </div>
+      </section>
+      <section class="analysis">
+        <table class="table">
+          <tr>
+            <th>Game No.</th>
+            <th>Winner</th>
+            <th>No. of Draws</th>
+          </tr>
+        </table>
+      </section>
+          <section class="popup">
+            <div class="popupContent"><h1 class="announcement"></h1><br>
+            <div class="button1">
+                <button class="playagain1">Play Again</button>
+                <button class="reset1">Reset</button>
+            </div>
+        </div>
+          </section>
+        </section>
+        <section class="popup1">
+          <div class="popupContent1">
+            <form>
+                <label for="fpn">1st Player Name</label>
+                <input type="text" id="fpn" name="fpn" placeholder="1st Player Name">
+                <br><br>
+                <label for="spn">2nd Player Name</label>
+                <input type="text" id="spn" name="spn" placeholder="2nd Player Name">
+            </form>
+            
+            <br>
+          <div class="button2">
+              <button type="submit" class="play">Play</button>
+              
+          </div>
+      </div>
+        </section>
+
+
+        
+
+     </main>
+     <script src="./script.js"></script>
+</body>
+</html>
